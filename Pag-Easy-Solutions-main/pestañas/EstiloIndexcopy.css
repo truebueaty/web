@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* Aquí puedes seguir definiendo tus estilos CSS */
+
+* {
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(255, 211, 251);
+}
+
+header {
+    text-align: center;
+    align-content: center;
+    height: 180px;
+    border-bottom: 1px solid white;
+
+
+}
+
+h1 {
+    font-size: 40px;
+    background: linear-gradient(to left, #7F5529, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+    flex: 1;
+    justify-content: center;
+    align-items: c;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    background: linear-gradient(to right, #7F5529, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    display: flex;
+}
+
+.img {
+    flex: 1; /* La imagen ocupará todo el espacio disponible en el contenedor */
+    display: flex;
+    justify-content: flex-end; /* La imagen se alineará a la derecha */
+    align-items: center; /* La imagen se alineará verticalmente al centro */
+}
+
+.img img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen para que se ajuste al contenedor */
+    height: auto; /* Altura automática para mantener la proporción de la imagen */
+}
+
+input {
+    border-radius: 15px;
+    border: none;
+    width: 110%;
+    gap: 10px;
+    bottom: 10px;
+    outline: none;
+}
+
+.desc {
+    height: 100px;
+}
+
+button {
+    background: linear-gradient(to right, #7F5529, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    font-size: 30px;
+    transform: translateX(230%);
+    /* Ajusta la posición para centrar horizontalmente */
+    border: none;
+    width: 100px;
+}
+
+img{
+    width: 300px;
+}
